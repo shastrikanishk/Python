@@ -52,3 +52,54 @@ print(key1,key2)
 
 
 
+sort_list1=[23,12,34,44,21,12]
+m1=sort_list1
+print('m1----',m1)
+#def selection_sort(sort_list1):
+#    n = len(sort_list1)
+#    for k in range(n-1):
+#        first_ele=k
+#        for l in range(k+1,n):
+#            if k< l
+#                first_ele=l
+#            else:
+
+
+
+print(range(1))
+
+num=range(3,12,3) #range(start,stop,step) atleast stop is required
+print(num) # prints the entire object num in its entirety.
+for i in num:   #iterates over each element in num and prints each element separately.
+    print(i)
+
+
+my_tuple = (1, 2, 3, "apple", True)
+# my_tuple[0] = 10  # This would raise an error
+
+list12=[1,'test','oi',(2,3)]
+for o in list12:
+    print(o)
+print(list12)
+
+print(my_tuple)
+#print("true")
+
+
+
+
+
+list_demo=[1,2,"test",1.2]
+#set_demo=set(1)
+dictiona_demo={}
+string_demo=""
+tuple_demo=()
+
+print("list demo - ")
+print(type(tuple_demo))
+#print(type(set_demo))
+print(list_demo)
+
+dict2={'name':'varun','age':33,'city':'Berlin'}
+print(dict2)
+
